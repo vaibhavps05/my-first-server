@@ -5,6 +5,9 @@ app.get("/", function(request, response){
     response.send("Hello World");
 });
 
+
+// request to the server and response from the server
+
 app.get("/contact", function(req, res){
     res.send("contact me at ....gmail.com");
 });
